@@ -7,7 +7,6 @@ export default function Cards({ data }: CardsProps) {
       <Image
         alt="personagem"
         src={data.image}
-        layout="responsive"
         width={500}
         height={500}
         className="rounded-md"
