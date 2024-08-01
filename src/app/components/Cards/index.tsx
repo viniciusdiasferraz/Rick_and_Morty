@@ -7,8 +7,8 @@ export default function Cards({ data }: CardsProps) {
       <Image
         alt="personagem"
         src={data.image}
-        width={350}
-        height={350}
+        width={300}
+        height={300}
         className="rounded-md"
       />{" "}
       <h2 className="text-white text-lg font-semibold mt-3">{data.name}</h2>
